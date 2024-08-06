@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Studio</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/index.css">
+  </head>
+<body>
+    <!-- NAVBAR SECTION -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="./index.html">
+          <img src="./image/logocopy.png" alt="" height="50px" width="250px" class="nav-image">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <a href="./index.html">
+                <img src="./image/logocopy.png" alt="" height="50px" width="150px">
+              </a>
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body ">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="./aboutUs.html">About us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active mx-lg-2" aria-current="page" href="#">How to play</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="./FAQ.html">FAQs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link  mx-lg-2" href="./pointTable.html">Points Table</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="./contact.html">Contact us</a>
+              </li>
+              <a href="./image/GameStudio.apk">
+                <li class="nav-item">
+                  <button class="btn download_btn" type="button">Click to Play</button>
+                </li>
+
+              </a>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- MAIN SECTION -->
+     <main>
+      <section class="faq">
+        <div class="contact-content mt-5 pt-5 text-center d-flex justify-content-center flex-column">
+          <h2 class="contact-heading" data-aos="fade-center" data-aos-duration="1800">How to Play</h2>
+          <p class="contact-text" data-aos="fade-center" data-aos-duration="2000">Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Maxime quos quam dolorem <br> fuga consequuntur cumque,
+            non repudiandae beatae reprehenderit suscipit.</p>
+        </div>
+      </section>
+      <section class="play-section">
+        <p class="play-text text-center mt-5 playheading-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consectetur <br> qut sapiente ipsum quo qui culpa quam accusamus?</p>
+        <h1 class="playheading text-center mt-3">Understand the game and shine</h1>
+      </section>
+      <section id="play-card" >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-3 col-md-6 col-sm-6 col-8 mt-5 p-4 play-column">
+              <div class="card play-card-1">
+                <div class="img-hover-zoom">
+                  <img src="./image/SelectContest.jpg" alt="" class="card-img-top">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-head mt-1">Select Contest</h5>
+                  <p class="card-text">From the different contests we offer, choose the one that you would like to try out the most.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-8 mt-5 p-4 play-column">
+              <div class="card play-card-1">
+                <div class="img-hover-zoom">
+                  <img src="./image/CreateTeam.jpg" alt="" class="card-img-top">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-head mt-1">Create Team</h5>
+                  <p class="card-text">This is one of the most fun aspects of FC and it allows you to create your dream team.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-8 mt-5 p-4 play-column">
+              <div class="card play-card-1">
+                <div class="img-hover-zoom">
+                  <img src="./image/FollowAction.jpg" alt="" class="card-img-top">
+
+                </div>
+                <div class="card-body">
+                  <h5 class="card-head mt-1">Follow Action</h5>
+                  <p class="card-text">Follow the game action and strive to ensure that you make better informed decisions.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6 col-8 mt-5 p-4 play-column">
+              <div class="card play-card-1">
+                <div class="img-hover-zoom">
+                  <img src="./image/Dominate.jpg" alt="" class="card-img-top">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-head">Dominate Competition</h5>
+                  <p class="card-text">Showcase your skills and knowledge as well as ensure that you dominate the competition at all times.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="play-swiper-slider">
+        <div class="swiper-head">
+          <p class="play-text text-center mt-5">OUR UNIQUE PERKS</p>
+          <h1 class="playheading text-center mt-3">Benefits that enhances
+            your immersion</h1>
+        </div>
+        <div class="container">
+          <div class="row ">
+            <div class="play-list-slider mt-4 row">
+              <div class="col-lg-2 col-md-3 col-sm-4 col-12 mt-5 p-4">
+                <div class="card play-card-2">
+                  <img src="./image/play-image-1.png" alt="" class="card-img">
+                  <p class="play-card-text">Context Selection</p>
+                </div>
+              </div>
+
+
+              <div class="col-lg-2 col-md-3 col-sm-4 col-12 mt-5 p-4">
+                <div class="card play-card-2">
+                  <img src="./image/play-image-2.png" alt="" class="card-img">
+                  <p class="play-card-text">Team Creation</p>
+                </div>
+              </div>
+
+
+              <div class="col-lg-2 col-md-3 col-sm-4 col-12 mt-5 p-4">
+                <div class="card play-card-2">
+                  <img src="./image/play-image-3.png" alt="" class="card-img">
+                  <p class="play-card-text">Action Following</p>
+                </div>
+
+              </div>
+
+
+              <div class="col-lg-2 col-md-3 col-sm-4 col-12 mt-5 p-4">
+                <div class="card play-card-2">
+                  <img src="./image/play-image-4.png" alt="" class="card-img">
+                  <p class="play-card-text">Great Competition</p>
+                </div>
+
+              </div>
+
+
+              <div class="col-lg-2 col-md-3 col-sm-4 col-12 mt-5 p-4">
+                <div class="card play-card-2">
+                  <img src="./image/captancy-skill.png" alt="" class="card-img">
+                  <p class="play-card-text">Captancy Skill</p>
+                </div>
+              </div>
+
+
+              <div class="col-lg-2 col-md-3 col-sm-4 col-12 mt-5 p-4">
+                <div class="card play-card-2">
+                  <img src="./image/enterainment-value.png" alt="" class="card-img">
+                  <p class="play-card-text">Enterainment Value</p>
+                </div>
+
+              </div>
+
+
+              <div class="col-lg-2 col-md-3 col-sm-4 col-12 mt-5 p-4">
+                <div class="card play-card-2">
+                  <img src="./image/format-variety.png" alt="" class="card-img">
+                  <p class="play-card-text">Format Variety</p>
+                </div>
+              </div>
+
+
+              <div class="col-lg-2 col-md-3 col-sm-4 col-12 mt-5 p-4">
+                <div class="card play-card-2">
+                  <img src="./image/Knowledge-testing.png" alt="" class="card-img">
+                  <p class="play-card-text">Knowledge Testing</p>
+                </div>
+
+              </div>
+
+              <div class="col-lg-2 col-md-3 col-sm-4 col-12 mt-5 p-4">
+                <div class="card play-card-2">
+                  <img src="./image/realtime-engage.png" alt="" class="card-img">
+                  <p class="play-card-text">Real Time Engagement</p>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="play-details">
+        <div class="play-details-head">
+          <p class="play-text text-center mt-5">TIPS AND TRICKS</p>
+          <h1 class="playheading text-center mt-3">Master the game, <br>
+            boost your performance</h1>
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-9 mt-5 p-4 play-column3">
+              <div class="card play-card-3">
+                
+                  <img src="./image/understand-player-form.png" alt="" class="card-img-top">
+                
+                <div class="card-body play-card3-intro">
+                  <h5 class="card-head mt-1">Select Contest</h5>
+                  <p class="play-card3-text">From the different contests we offer, choose the one that you would like to try out the most.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-9 mt-5 p-4 play-column3">
+              <div class="card play-card-3"> 
+                
+                  <img src="./image/Balance-yourteam.jpeg" alt="" class="card-img-top">
+                
+                <div class="card-body play-card3-intro">
+                  <h5 class="card-head mt-1">Create Team</h5>
+                  <p class="play-card3-text">This is one of the most fun aspects of FC and it allows you to create your dream team.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-9 mt-5 p-4 play-column3">
+              <div class="card play-card-3">
+                
+                  <img src="./image/Multiple-context.jpg" alt="" class="card-img-top">
+
+              
+                <div class="card-body play-card3-intro">
+                  <h5 class="card-head mt-1">Follow Action</h5>
+                  <p class="play-card3-text">Follow the game action and strive to ensure that you make better informed decisions.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+     </main>
+        <!-- FOOTER  -->
+        <footer id="footer">
+          <div class="container-fluid">
+            <h1 class="footer-head text-center mt-3 p-4">
+              Unlock possibilities with a click
+              <a href="./image/GameStudio.apk">
+
+                <button class="btn download_btn" type="button">Click to Play</button>
+              </a>
+            </h1>
+            <hr>
+            <div class="row">
+              <div class="col-lg-3 col-md-6 col-sm-12 mt-5 p-3">
+                <a href="./index.html">
+                  <img src="./image/logocopy.png" alt="" class="footer-img img-fluid">
+                  
+                </a>
+                <p class="footer-col1-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis
+                  deserunt
+                  repellendus amet, iste sunt debitis. Ducimus possimus nam porro ad.</p>
+              </div>
+              <div class="col-lg-3 col-md-6 col-sm-12 mt-5 p-3 text-capitalize footer-column">
+                <h3 class="footer-col2-title">Quick Links</h3>
+                <div class="col d-flex flex-column footer-contact-links">
+                  <a href="./index.html">home</a>
+                  <a href="./aboutUs.html">about us</a>
+                  <a href="./howtoPlay.html">how to play</a>
+                  <a href="./FAQ.html"> FAQ</a>
+                  <a href="./pointTable.html">points table</a>
+                  <a href="./contact.html">contact us</a>
+      
+                </div>
+              </div>
+              <div class="col-lg-2 col-md-6 col-sm-12 mt-5 p-3">
+                <div class="col d-flex flex-column text-capitalize footer-contact-links">
+                  <h3 class="footer-col3-title">Policies</h3>
+                  <a href="./privacypolicy.html">privacy policy</a>
+                  <a href="./terms.html">terms & conditions</a>
+                  <a href="./refund.html">refund policy</a>
+                  <a href="./fairplay.html">fairplay policy</a>
+                  <a href="./responsibleplay.html">responsible play policy</a>
+                  <a href="./disclaimer.html">disclaimer</a>
+      
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 col-sm-12 mt-5 p-3">
+                <h3 class="footer-col4-title">Contact Us</h3>
+                <h4 class="footer-col4-subtitle">YAZCHALLENGE SPEED PRO AND MAKER GAME PRIVATE LIMITED</h4>
+                <div class="contact-icon d-flex">
+                  <i class="bi bi-geo-alt-fill"></i>
+                  <p class="contact-subtext">Flat No.: 31-42/2, INDIRAMMA COLONY, Naspur, Mancherial,Telangana,
+                    504302</p>
+                </div>
+                <div class="contact-icon d-flex">
+                  <i class="bi bi-envelope-fill"></i>
+                  <p class="contact-subtext">Flat No.: 31-42/2, INDIRAMMA COLONY, Naspur, Mancherial,Telangana,
+                    504302</p>
+                </div>
+                <div class="contact-icon d-flex">
+                  <i class="bi bi-telephone-outbound-fill"></i>
+                  <p class="contact-subtext">Flat No.: 31-42/2, INDIRAMMA COLONY, Naspur, Mancherial,Telangana,
+                    504302</p>
+                </div>
+              </div>
+            </div>
+            <div class="footer-marquee d-flex m-3 p-3">
+              <span class="footer-marquee-disclamer">Disclamer </span>
+              <marquee behavior="Disclamer" direction="left" class="footer-contactDisclaimer">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident cum nemo voluptatibus dolores
+                architecto vero
+                libero molestiae. Illum eveniet autem consectetur quaerat, possimus enim culpa quod iure, quis
+                incidunt neque.
+              </marquee>
+      
+            </div>
+            <div class="contact-copyright p-3">
+              <p class="footer-copyright-text text-center">© Copyright 2024 by YAZCHALLENGE SPEED PRO AND MAKER GAME
+                PRIVATE LIMITED</p>
+            </div>
+          </div>
+        </footer>
+      </body>
+      <script src="./javascript/bootstrap.bundle.min.js"></script>
+      <script src="./javascript/popper.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+      <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+      <script src="./javascript/slick.min.js"></script>
+      <script src="./javascript/home.js"></script>
+</html>
